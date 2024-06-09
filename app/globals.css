@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+}
+
+.home-btn-1 {
+  margin-top: 20px;
+  width: fit-content;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background: white;
+  font-weight: bold;
+  box-shadow:
+    0 6px 16px 0 rgba(0, 0, 0, 0.08),
+    0 3px 6px -4px rgba(0, 0, 0, 0.12),
+    0 9px 28px 8px rgba(0, 0, 0, 0.05);
+}
+
+.slide-content {
+  margin: 0 40px;
+}
+
+.card-item {
+  border-radius: 25px;
+  background-color: #fff;
+  position: relative;
+  margin-bottom: 50px;
+  border: 2px solid #e65f1d;
+}

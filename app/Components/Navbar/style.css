@@ -1,0 +1,26 @@
+.nav-item {
+    position: relative;
+}
+.nav-link:hover {
+    font-style: normal;
+    font-weight: 600;
+    background: linear-gradient(138.62deg, #bc0d2c 7.45%, #e65f1e 85.72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-decoration: dashed;
+}
+
+.nav-link:hover svg {
+    display: none;
+}
+.nav-link:hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 55px;
+    height: 3px;
+    background: linear-gradient(138.62deg, #bc0d2c 7.45%, #e65f1e 85.72%);
+    border-radius: 2px;
+}
